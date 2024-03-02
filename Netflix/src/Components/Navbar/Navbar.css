@@ -1,0 +1,32 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .header__logo {
+    height: 40px;
+  }
+  
+  .header__avatar{
+    height: 40px;
+  }
+  .header__nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .header__navItem {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .header__navItem:hover {
+    text-decoration: underline;
+  }
+  
