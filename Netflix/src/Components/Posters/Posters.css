@@ -16,9 +16,10 @@
   }
   
   .poster {
+    cursor: pointer;
     object-fit: contain;
     width: 100%;
-    max-height: 100px;
+    max-height: 250px;
     margin-right: 10px;
     transition: transform 450ms;
   }
@@ -27,3 +28,13 @@
     transform: scale(1.08);
   }
   
+  .smallPoster{
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+    transition: transform 550ms;
+  }
+
+  .smallPoster:hover {
+    transform: scale(1.2);
+  }

@@ -2,17 +2,19 @@
 .banner {
     color: white;
     object-fit: contain;
-    height: 448px;
+    height: 480px;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     position: relative;
-    background-image: url('https://wallpaperaccess.com/full/2703652.png');
+    /* background-image: url('https://wallpaperaccess.com/full/2703652.png'); */
   }
   
-  .banner_contents {
-    margin-left: 30px;
+  .content {
+    /* margin-left: 30px; */
     padding-top: 140px;
     height: 190px;
+    padding-left: 20px;
+    /* background-color: white; */
   }
   
   .banner_title {
